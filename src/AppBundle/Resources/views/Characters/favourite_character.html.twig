@@ -1,0 +1,16 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Characters:favouriteCharacter{% endblock %}
+
+{% block body %}
+    <h1 class="text-center">Favourite Character: <span class="label label-info"><em>{{ response['data']['results'][0]['name'] }}</em></span></h1>
+    <div class="container">
+        {% if response is defined %}
+            {{ dump(response['data']['results']) }}
+
+
+        {% else %}
+            <span class="text-warning text-center h3">You don't belong in the Marvel Universe! Go back and choose a favourite character or prepare to meet your doom!</span>
+        {% endif %}
+    </div>
+{% endblock %}

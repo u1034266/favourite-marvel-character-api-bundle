@@ -1,0 +1,67 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:Characters:index{% endblock %}
+
+{% block body %}
+<h3 class="text-center"><strong>Welcome to the Marvel Universe Favourite Character Portal</strong></h3>
+<h3 class="text-center"><em>~ Choose your favourite character ~</em></h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4-lg" style="padding: 5px;">
+                <div class="card" style="width: 18rem; padding: 5px;">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg" alt="" class="card-img-top" style="height: 18vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Character Name</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet.
+                        </p>
+                        <a href="#" class="btn btn-success">Set as favourite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4-lg" style="padding: 5px;">
+                <div class="card" style="width: 18rem; padding: 5px;">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg" alt="" class="card-img-top" style="height: 18vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Character Name</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet.
+                        </p>
+                        <a href="#" class="btn btn-success">Set as favourite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4-lg" style="padding: 5px;">
+                <div class="card" style="width: 18rem; padding: 5px;">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec.jpg" alt="" class="card-img-top" style="height: 18vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Character Name</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet.
+                        </p>
+                        <a href="#" class="btn btn-success">Set as favourite</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4-lg" style="padding: 5px;">
+                <div class="card" style="width: 18rem; padding: 5px;">
+                    <img src="http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04.jpg" alt="" class="card-img-top" style="height: 18vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Character Name</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet. Lorem ipsum dolo sit amet.
+                        </p>
+                        <a href="#" class="btn btn-success">Set as favourite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if response is defined %}
+        <div class="container">
+            {{ dump(response['data']['results']) }}
+        </div>
+    {% endif %}
+{% endblock %}

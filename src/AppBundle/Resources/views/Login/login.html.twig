@@ -5,27 +5,27 @@
 {% block body %}
     <div class="panel panel-info jumbotron hero-marvel">
         <div class="row">
-            <div class="panel-heading">
-                <h3><strong>Login</strong></h3>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 col-md-offset-4">
+                <div class="text-center h3"><strong>Login</strong></div>
                 <div class="panel-body">
-                    <form action="{{ path('login') }}" method="POST">
+                    <form action="{{ path('index') }}" method="POST">
 
-                        <div class="form-group">
-                            <label for="username">Username:</label>
-                            <input type="text" name="_username" id="username" class="form-control text-center" value="{{ username }}">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Username</span>
+                            </div>
+                            <input type="text" name="_username" id="username" class="form-control text-center" value="{{ username }}" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
 
-                        <div class="form-group">
-                            <label for="password">Password:</label>
-                            <input type="password" name="_password" id="password" class="form-control text-center">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Password</span>
+                            </div>
+                            <input type="password" name="_password" id="password" class="form-control text-center" value="{% if password is defined %} {{ password }} {% endif %}" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
 
-                        <div class="form-gr">
-                            <button class="btn btn-info">Login</button>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-info pull-right" style="float: right;">Login</button>
                         </div>
 
                         {% if errors %}

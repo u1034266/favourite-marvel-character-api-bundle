@@ -14,7 +14,7 @@ security:
             entity:
                 class: AppBundle:User
                 # Can be either username / email etc.., depending on your requirements.
-                # property: username // Note: user this if only logging in with username and not email.
+                property: username # Note: user this if only logging in with username and not email.
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -26,11 +26,15 @@ security:
             anonymous: ~
             form_login:
                 login_path: login
-                check_path: login
+                check_path: index
+                always_use_default_target_path: false
+                default_target_path: index
+                failure_path: login
+                use_forward: true
 
             logout:
                 path: /logout
-                target: /
+                target: /login
 
             # activate different ways to authenticate
 
@@ -42,5 +46,7 @@ security:
 
     access_control:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/index, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/logout, roles: IS_AUTHENTICATED_ANONYMOUSLY }
