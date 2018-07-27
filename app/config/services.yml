@@ -34,6 +34,14 @@ services:
         resource: '../../src/AppBundle/DataFixtures'
         tags: ['doctrine.fixture.orm']
 
+    # MarvelApiClient Service
+    marvel_api_client:
+        class: AppBundle\Service\MarvelApiClient
+        public: true
+        arguments:
+            $publicApiKey: '%marvel_api_pubKey%'
+            $privateApiKey: '%marvel_api_privKey%'
+
     # add more services, or override services that need manual wiring
     # AppBundle\Service\ExampleService:
     #     arguments:

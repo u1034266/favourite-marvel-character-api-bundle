@@ -5,10 +5,6 @@ namespace AppBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
-use GuzzleHttp\Client as GuzzleClient;
-use GuzzleHttp\Exception\ClientException;
-use AppBundle\Model\MarvelApiClient as Client;
-
 class CharactersController extends Controller
 {
     /**
@@ -17,19 +13,9 @@ class CharactersController extends Controller
     public function indexAction()
     {
         /*
-         * Public key
+         * Call the Marvel API Client
          * */
-        $marvel_api_pubKey = $this->getParameter('marvel_api_pubKey');
-
-        /*
-         * Private key
-         * */
-        $marvel_api_privKey = $this->getParameter('marvel_api_privKey');
-
-        /*
-         * Call the Marvel API
-         * */
-        $client = new Client($marvel_api_pubKey, $marvel_api_privKey);
+        $client = $this->get('marvel_api_client');
 
         /* Auth user has a fave marvel char? */
         if ($this->getUser()->getCharacterid() > 0) {
