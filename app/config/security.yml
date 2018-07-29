@@ -36,6 +36,10 @@ security:
                 path: /logout
                 target: /login
 
+#            setFavourite:
+#                path: /setFavourite
+#                target: /index
+
             # activate different ways to authenticate
 
             # http_basic: ~
@@ -50,3 +54,5 @@ security:
         - { path: ^/, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/logout, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/setFavourite, roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/newFavourite, roles: IS_AUTHENTICATED_FULLY }

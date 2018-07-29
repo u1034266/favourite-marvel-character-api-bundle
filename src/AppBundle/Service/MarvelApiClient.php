@@ -43,7 +43,7 @@ class MarvelApiClient
     {
         $response = $this->call('characters', $characterFilter);
 
-        // $formattedResponse = $this->formatResponse($response, CharacterDataWrapper::class);
+        $response = $this->formatResponse($response);
 
         return $response;
     }
@@ -59,7 +59,7 @@ class MarvelApiClient
     {
         $response = $this->call('characters/' . $id);
 
-        // $formattedResponse = $this->formatResponse($response, CharacterDataWrapper::class);
+        $response = $this->formatResponse($response);
 
         return $response;
     }
@@ -119,12 +119,14 @@ class MarvelApiClient
      *
      * @return Object
      */
-    private function formatResponse(Response $response, string $dataWrapper)
+    private function formatResponse($response)
     {
-        $serializer = SerializerBuilder::create()
-            ->addMetadataDir(__DIR__ . '/../Serializer', 'u1034266\MarvelApiBundle')
-            ->build();
+        if(count($response['data']['results']) > 1) {
+            $response = $response['data']['results'];
+        } else {
+            $response = $response['data']['results'][0];
+        }
 
-        return $serializer->deserialize($response->getBody()->getContents(), $dataWrapper, 'json');
+        return $response;
     }
 }

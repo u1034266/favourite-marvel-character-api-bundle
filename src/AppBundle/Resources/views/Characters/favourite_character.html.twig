@@ -3,14 +3,31 @@
 {% block title %}AppBundle:Characters:favouriteCharacter{% endblock %}
 
 {% block body %}
-    <h1 class="text-center">Favourite Character: <span class="label label-info"><em>{{ response['data']['results'][0]['name'] }}</em></span></h1>
-    <div class="container">
+    <h1 class="text-center text-white">Favourite Character: <span class="label label-info"><em>{{ response['name'] }}</em></span></h1>
+    <div class="container text-center">
         {% if response is defined %}
-            {{ dump(response['data']['results']) }}
-
+            {#{{ dump(response) }}#}
+            <div style="padding: 5px;">
+                <div class="card" style="width: 54rem; height: 60rem;  padding: 5px;">
+                    <img src="{{ response['thumbnail']['path'] ~ '.' ~ response['thumbnail']['extension'] }}" alt="" class="card-img-top" style="height: 36vw; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>{{ response['name'] }}</strong></h5>
+                        <p class="card-text">
+                            {% if response['description'] == '' %}
+                                No description
+                            {% else %}
+                                {{ response['description'] | default('No description was provided for this character.') }}
+                            {% endif %}
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="{{ path('newFavourite') }}" class="btn btn-warning">Choose New Favourite!</a>
+                    </div>
+                </div>
+            </div>
 
         {% else %}
-            <span class="text-warning text-center h3">You don't belong in the Marvel Universe! Go back and choose a favourite character or prepare to meet your doom!</span>
+            <span class="text-warning text-center h3 text-white">You don't belong in the Marvel Universe! Go back and choose a favourite character or prepare to meet your doom!</span>
         {% endif %}
     </div>
 {% endblock %}

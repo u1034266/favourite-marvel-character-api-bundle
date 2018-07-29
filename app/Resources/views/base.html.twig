@@ -17,16 +17,19 @@
                 padding-top:200px;
                 padding-bottom:200px;
             }
+            body{
+                background:url('https://c1.staticflickr.com/6/5062/5647855669_3f144666c0_b.jpg');
+            }
         </style>
     </head>
     <body>
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-            <div class="pull-right" style="float: right; padding: 15px;">
+            <div class="pull-right text-white" style="float: right; padding: 15px;">
                 <span>Logged in as <em>{{ app.user.username | capitalize }}</em></span> <a href="{{ logout_path() }}" class="btn btn-danger btn-sm">Logout</a>
             </div>
         {% endif %}
         <div class="container" style="padding-top: 20px">
-            <div class="text-center h1"><strong>Marvel Universe</strong></div>
+            <div class="text-center h1 text-white"><strong>Marvel Universe</strong></div>
             {% block body %}{% endblock %}
         </div>
         <div class="text-center">&copy; <a href="https://github.com/u1034266">https://github.com/u1034266</a></div>

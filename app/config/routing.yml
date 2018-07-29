@@ -3,4 +3,12 @@ app:
     type: annotation
 
 logout:
-   path: /logout
+    path: /logout
+
+setFavourite:
+    path: /setFavourite/{characterid}
+    controller: AppBundle\Controller\CharactersController::setFavouriteAction
+
+newFavourite:
+    path: /newFavourite
+    controller: AppBundle\Controller\CharactersController::newFavouriteAction
