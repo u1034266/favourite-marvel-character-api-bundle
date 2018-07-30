@@ -69,9 +69,3 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
-
-# Marvel API Configuration
-# marvel_api:
-#    public_key: "%marvel_api_pubKey%"
-#    private_key: "%marvel_api_privKey%"
-#    url: "%marvel_api_url%"
