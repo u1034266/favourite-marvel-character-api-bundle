@@ -2,20 +2,6 @@
     "name": "david/marvelapi_sym34",
     "license": "proprietary",
     "type": "project",
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-                "name": "u1034266/favourite-marvel-character-api-bundle",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/u1034266/favourite-marvel-character-api-bundle.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"
@@ -45,8 +31,7 @@
         "symfony/polyfill-apcu": "^1.0",
         "symfony/swiftmailer-bundle": "^2.6.4",
         "symfony/symfony": "3.4.*",
-        "twig/twig": "^1.0||^2.0",
-        "u1034266/favourite-marvel-character-api-bundle": "master"
+        "twig/twig": "^1.0||^2.0"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.0",

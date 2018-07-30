@@ -12,42 +12,11 @@ This application is intended solely for education purposes only, and free to use
 * Symfony Flex (optional)
 
 ## Installation & Setup
-Applications that are using Symfony Flex
-----------------------------------------
-Run this command in your terminal and you are ready to go
+## 1. Clone the repository
 ```console
-$ composer require u1034266/favourite-marvel-character-api-bundle
-```
-
-Applications that don't use Symfony Flex
-----------------------------------------
-## 1. Composer require bundle
-```console
-$ composer require u1034266/favourite-marvel-character-api-bundle
-```
-
-## 2. Register / Enable bundle
-Do this in `app/AppKernel.php`
-```php
-class AppKernel extends Kernel
-{
-    public function registerBundles()
-    {
-        $bundles = [
-            // ...
-            new u1034266/FavouriteMarvelCharacterApiBundle\u1034266FavouriteMarvelCharacterApiBundle(),
-        ];
-
-        // ...
-
-        return $bundles;
-    }
-    
-    // ...
-    
- }
-```
-## 3. Configure your API Keys
+$ git clone https://github.com/u1034266/favourite-marvel-character-api-bundle.git
+``` 
+## 2. Configure your API Keys
 Once you've logged into your Marvel API account, then copy your API keys and place them into `app/config/parameters.yml`
 ```console
 parameters:
