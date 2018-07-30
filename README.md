@@ -74,7 +74,7 @@ Only two(2) endpoints are configured in this example.
 ## Optional Improvements
 Whilst this feature is cool and lightweight, some cool-to-have improvements may include:
 * Building DataWrappers
-* User registration functionality (currently their is only one user. Ie. admin user)
+* User registration functionality (currently there is only one user. Ie. admin user)
 
 ## Additional info
 
