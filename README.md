@@ -26,7 +26,7 @@ parameters:
     marvel_api_privKey: #yourApiPrivateKey
     marvel_auth_referrer: localhost
 ```
-## 4. Database Migration
+## 3. Database Migration
 Update your data fixture config in the `src/AppBundle/DataFixtures/ORM/LoadUserData.php` file, and add your `admin user` credentials.
 ```console
 public function load(ObjectManager $manager)

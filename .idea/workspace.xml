@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f497ba40-78b3-4ac3-a8bc-e69bc31fc05e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="660">
-                <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+              <first_editor relative-caret-position="735">
+                <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -201,12 +200,12 @@
       <workItem from="1532322377084" duration="20634000" />
       <workItem from="1532404639280" duration="11538000" />
       <workItem from="1532479925933" duration="39350000" />
-      <workItem from="1532873380870" duration="22684000" />
+      <workItem from="1532873380870" duration="22773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99691000" />
+    <option name="totallyTimeSpent" value="99780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1055" extended-state="6" />
@@ -218,7 +217,7 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32938644" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.76856834" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25773746" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25773746" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32972974" />
@@ -604,8 +603,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="660">
-            <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+          <first_editor relative-caret-position="735">
+            <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
