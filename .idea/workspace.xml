@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f497ba40-78b3-4ac3-a8bc-e69bc31fc05e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CharactersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CharactersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Model/MarvelApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Model/MarvelApiClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Service/MarvelApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Service/MarvelApiClient.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,57 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharactersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CharactersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-              <folding>
-                <element signature="e#40#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favourite_character.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,10 +84,11 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Service/MarvelApiClient.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/CharactersController.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,9 +152,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+    <option name="x" value="1919" />
     <option name="width" value="1922" />
-    <option name="height" value="1053" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,12 +174,6 @@
               <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
               <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
@@ -245,12 +199,6 @@
             <path>
               <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
               <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,60 +213,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Characters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvelapi_sym34" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marvelapi_sym34" type="b2602c69:ProjectViewProjectNode" />
@@ -377,15 +271,15 @@
       <workItem from="1532322377084" duration="20634000" />
       <workItem from="1532404639280" duration="11538000" />
       <workItem from="1532479925933" duration="39350000" />
-      <workItem from="1532873380870" duration="14425000" />
+      <workItem from="1532873380870" duration="16754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91432000" />
+    <option name="totallyTimeSpent" value="93761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -416,16 +310,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="118" selection-start-line="28" selection-start-column="118" selection-end-line="28" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -755,19 +639,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/CharactersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="637">
           <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
           <folding>
             <element signature="e#40#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -779,14 +667,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Characters/favourite_character.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
