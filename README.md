@@ -71,6 +71,19 @@ Only two(2) endpoints are configured in this example.
     // To get all characters ie. Limit currently set to 20 chars. Can increase as per required.
     $response = $client->getCharacters();
 ```
+
+# Run Application
+## On Localhost
+Run command
+```console
+$ cd /path/to/repo
+$ php bin/console server:start
+```
+Check in browser
+```console
+http://localhost:8000/login
+```
+Note: By default, `port 8000` is used. But if you have more than one application running on localhost, then you can specify a different port.
 ## Optional Improvements
 Whilst this feature is cool and lightweight, some cool-to-have improvements may include:
 * Building DataWrappers
