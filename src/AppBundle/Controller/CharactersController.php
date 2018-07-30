@@ -22,7 +22,7 @@ class CharactersController extends Controller
         /* Auth user has a fave marvel char? */
         if ($this->getUser()->getCharacterid() > 0) {
 
-            $response = $client->getCharacter($this->getUser()->getCharacterid());
+                $response = $client->getCharacter($this->getUser()->getCharacterid());
             return $this->favouriteCharacterAction($response,0);
 
         }
